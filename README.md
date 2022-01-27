@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/rtex-node.svg)](https://badge.fury.io/js/rtex-node) [![install size](https://packagephobia.now.sh/badge?p=rtex-node)](https://packagephobia.now.sh/result?p=rtex-node)
 
-This module is a Node.js wrapper for [DXSmiley's rTeX](https://github.com/DXsmiley/rtex), a minimal LaTeX rendering server.
+This module is a Node.js wrapper for [DXsmiley's rTeX](https://github.com/DXsmiley/rtex), a minimal LaTeX rendering server.
 
 ## Installation
 
@@ -19,7 +19,7 @@ const renderLatex = require('rtex-node');
 
 const LaTeXconfig = {
     code: String.raw`\begin{document}Hello, world!\end{document}`,
-    format: 'jpg', //defaults to png
+    format: 'pdf', //defaults to png
     quality: 100, //defaults to 85
     density: 300 //defaults to 200
 }
@@ -45,7 +45,7 @@ LaTeX render: https://rtex.probablyaweb.site/api/v2/somefilename.jpg
 • Potential security flaws such as \write18 and \input have been disabled. <br>
 • There is a rendering time limit of 8 seconds. <br>
 • Rendered documents are stored on the server for at most 2 hours. <br>
-• Please don't abuse the system. If you expect to use this module heavily, please contact [DXSmiley](https://rtex.probablyaweb.site/contact).
+• Please don't abuse the system. If you expect to use this module heavily, please contact [DXsmiley](https://rtex.probablyaweb.site/contact).
 
 
 Feel free to open an issue on the Github repo for bugs.
