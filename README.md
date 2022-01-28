@@ -34,7 +34,7 @@ renderLatex(LaTeXconfig).then((latexURL) => {
 Given that no errors are thrown, this would output the following:
 
 ```
-LaTeX render: https://rtex.probablyaweb.site/api/v2/somefilename.jpg
+LaTeX render: https://rtex.probablyaweb.site/api/v2/somefilename.pdf
 ```
 
 
