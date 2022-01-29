@@ -1,0 +1,22 @@
+{
+  "name": "rtex-node",
+  "version": "1.0.5",
+  "description": "A Node.js wrapper for rTeX, a LaTeX rendering API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binudakal/rTeX-node.git"
+  },
+  "keywords": [
+    "LaTeX"
+  ],
+  "author": "binudakal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binudakal/rTeX-node/issues"
+  },
+  "homepage": "https://github.com/binudakal/rTeX-node#readme"
+}
